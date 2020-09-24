@@ -1,0 +1,21 @@
+---
+title: "Buddy Ball"
+author: "Buddy Scott"
+date: "9/24/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(devtools)
+library(tidyverse)
+library(fs)
+```
+
+```{r}
+create_package("~/Desktop/Gov-50/buddyball")
+```
+
